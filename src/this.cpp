@@ -115,6 +115,10 @@ void bitSerialization(const std::vector<short>& lzwCompressed,
 	os << imprint;
 }
 
+
+// Начало главного кода
+
+
 int main() {
 
 	std::ifstream raw("bible.txt", std::ios::in);
@@ -131,3 +135,6 @@ int main() {
 
 	return 0;
 }
+
+
+// конец главного кода
